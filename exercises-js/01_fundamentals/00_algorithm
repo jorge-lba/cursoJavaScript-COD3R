@@ -1,0 +1,44 @@
+Algoritmo é uma sequencia de passos, que envolve condições e variações de opções
+Um algoritmo deve resolver um problema da forma mais eficaz possivel.
+
+Exemplo Simples:
+
+Preocesso de beber agua
+
+Você esta com sede?                                             // Comando If - "Se"
+    Sim -                                                       // Condição verdadeira
+        Pegue um copo                                           // Passo
+        Coloque de baixo da saida da torneira                   // Passo
+        Ligue o registro                                        // Passo
+                                                                //
+        Copo esta cheio?                                        // Comando For - "Repita"
+            Sim -                                               // Condição verdadeira
+                Desligue o registro                             // Passo
+            Não -                                               // Condição Falsa
+                Retorne para - Copo esta cheio?                 // Retorne e repita 
+                                                                //
+        Leve o como a boca                                      // Passo
+        Beba                                                    // Passo
+    Não -                                                       // Condição Falsa
+        Continue sua vida                                       // Passo
+
+// A ordem dos passsos são importantes para um resultato correto //
+
+///////////////////////////////////////////////////////////////////
+
+Algoritmo - substantivo masculino
+
+    1.MATEMÁTICA
+        sequência finita de regras, raciocínios ou operações que, 
+        aplicada a um número finito de dados, permite solucionar 
+        classes semelhantes de problemas.
+
+    2.INFORMÁTICA
+        conjunto das regras e procedimentos lógicos perfeitamente 
+        definidos que levam à solução de um problema em um número 
+        finito de etapas.
+
+    Origem
+        ETIM lat.medv. algorismus, com infl. do gr. arithmós 'número'
+
+/////////////////////////////////////////////////////////////////////        

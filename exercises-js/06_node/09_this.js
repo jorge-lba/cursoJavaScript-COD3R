@@ -1,0 +1,16 @@
+console.log(this === global);
+console.log(this === module);
+
+console.log(this === module.exports);
+console.log(this === exports);
+
+function logThis(){
+    console.log('Dentro da função...');
+    console.log('This se refere para exports?')
+    console.log(this === exports);
+
+    console.log('This se refere ao global?')
+    console.log(this === global);
+}
+
+logThis();

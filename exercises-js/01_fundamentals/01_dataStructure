@@ -1,0 +1,104 @@
+Estrutura de dados
+
+Estrutura de dados visa organizar e administrar os dados.
+
+Os dados são organizados e administrados de uma forma pré
+definida pelas regras impostas. 
+
+Exemplo:
+
+Regra Fila 
+    Os itens seram organizador por ordem de chegada, o primeiro
+    sera utratado, após ele o segundo e saim até finalizar.
+
+    Entrada                 ordem                   Saida
+    
+    Item_1                  Item_1                  Item_1
+    Item_2                  Item_2                  Item_2
+    Item_3                  Item_3                  Item_3
+    Item_4                  Item_4                  Item_4
+
+Regra Pilha
+    Os itens seram organizados por ordem de chegada, porem o 
+    ultimo á chegar sera o primeiro a ser tratado e assim por diante.
+
+    Entrada                 ordem                   Saida
+    
+    Item_1                  Item_4                  Item_4
+    Item_2                  Item_3                  Item_3
+    Item_3                  Item_2                  Item_2
+    Item_4                  Item_1                  Item_1
+
+Regra ordem Alfabetica
+    Os itens seram organizador por ordem alfabetica, idependendo da
+    ordem de entrada.
+
+    Entrada                 ordem                   Saida
+    
+    Jorge                   Damin                   Damin
+    Karen                   Jorge                   Jorge
+    Damin                   Karen                   Karen
+    Lucy                    Lucy                    Lucy
+
+Tabela é uma forma de estruturar dados, seguindo uma ordem determinada
+pelo algoritmo definido.
+
+Exemplo:
+
+Entrada:
+    
+    Nome:       Jorge
+    Idade:      27
+    Altura:     1.76
+
+    Nome:       Karen
+    Idade:      27
+    Altura:     1.68
+
+    Nome:       Marcelo
+    Idade:      47
+    Altura:     1.72
+
+    Nome:       Aparecida
+    Idade:      56
+    Altura:     1.65
+
+    Tabela - Regra Fila
+
+    Nome                Idade           Altura
+    Jorge               27              1.76
+    Karen               27              1.68
+    Marcelo             47              1.72
+    Aparecida           56              1.65
+
+    Redefinir Tablea - Regra ordem Alfabetica
+
+    Nome                Idade           Altura
+    Aparecida           56              1.65
+    Jorge               27              1.76
+    Karen               27              1.68
+    Marcelo             47              1.72
+
+    Redefinir Tabela - Regra ordem de Altura do Maior para o Menor
+
+    Nome                Idade           Altura
+    Jorge               27              1.76
+    Marcelo             47              1.72
+    Karen               27              1.68
+    Aparecida           56              1.65
+
+Estruturas Basicas de dados
+
+Int     - Numeros Inteiros
+Real    - Numeros Reais
+Letra   - Letras(Texto)
+Bool    - Verdadeiro ou Falso (1/0)
+
+Variaveis e Constantes
+
+Operações:
+    Atribuitivas
+    Aritmeticas
+    Relacionais
+    Lógicas
+

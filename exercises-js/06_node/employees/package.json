@@ -1,0 +1,19 @@
+{
+  "name": "employees",
+  "version": "1.0.0",
+  "description": "Aula de Package JSON",
+  "main": "employees.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JSOM"
+  ],
+  "author": "Jorge Luiz B Alegretti",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
