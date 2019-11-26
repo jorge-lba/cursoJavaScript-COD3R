@@ -1,0 +1,49 @@
+Principais marcos da História
+
+1950s -  Criação do Computador Eletronico
+1960s - ARPANET - Departamento de Defesa Americano Utiliza a primeira rede de comunicação
+1970s - O protocola TCP/IP é criado por Robert E. Kahn & Vist Cerf
+1980s - Criação do WWWW por Tim Berners-Lee
+1990s - Internet chega ao Brasil
+2000s - IG, Redes Sociais, Internet em Casa
+
+Topologias
+
+Centralizada
+    Varios computadores ligados em um nó central.
+
+Distribuida
+    Os pontos de conexão são espalhados, assim se um nó para os restantes continuam funcionando
+
+Web (Teia)
+
+TCP/IP - Transmission Control Protocol/ Internet Protocol
+
+TCP -  É o protocolo orientado a conexão e confiável
+IP - É responsavel pelo Roteamento entre Redes
+
+TCP/IP é um Software que usa o padrão de projetos Layers, são dividas nas seguintes camadas:
+    /Rede/Física            - Ethernet, Wifi... - MAC address - Fisica(Hardware) e Enlace(Software)
+    /----Internet           - IP(Internet Protocol) - Conexão entre redes - Transferência de Pacotes 
+    /--------Transporte     - TCP(Confiável), UDP(Melhor esforço) - Comunicação Host-A-Host - Confiabilidadem integridade....
+    /------------Aplicação  - HTTP, FTP, SMTP... - Comunicação Processo-A-Processo - Número da Porta
+
+Anatomia do endereço IPv4
+
+    Classe A
+        /192 /./168.100.230/
+        /Rede/./    Host   /
+        /255 /./   0.0.0   /
+    
+    Class B
+        /192.168/./100.230/
+        /Rede   /./ Host  /
+        /255.255/./  0.0  /
+        
+    Class C
+        /192.168.100/./230/
+        /    Rede   /./Host/
+        /255.255.255/./  0 /
+
+Conceito de Porta
+    
