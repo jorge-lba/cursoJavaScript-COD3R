@@ -1,0 +1,15 @@
+Evolução das Arquiteturas
+
+Mainframe
+Todos os processos eram direcionados ao Mainframe.
+
+Client-Server
+As aplicações tinham até 3 camadas (Client - Mediator - Database)
+Como o cliente continha muitos processos, a atualização de aplicações eram dificeis.
+
+Web Server-Side
+Toda a aplicação é processada pelo servidor.
+Atualização mais pratica.
+
+Front-end + services
+Parte do processamento fica com o cliente, e do lado do servidor são processados os dados.
