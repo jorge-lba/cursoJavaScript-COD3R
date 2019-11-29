@@ -1,0 +1,52 @@
+Protocolo HTTP (Hyper Text Transfer Protocol)
+
+Características
+
+- Pertence a Camada de Aplicação (Alto Nivel)
+- Stateless. Toda conexão é como se fosse a primeira
+- Cliente-Servidor. Funciona em modo Requisição e Resposta
+- TCP/IP
+- HTML, CSS, JS, Mídias ...
+
+Fluxo
+
+1. Usuário informa a URL
+2. Browser gera a Requisição
+3. Servidor Web gera a Resposta
+4. Browser exipe a página
+
+Métodos do HTTP
+
+GET
+POST
+PUT
+DELETE
+TRACE
+OPTIONS
+CONNECT
+HEAD
+
+Requisição e Resposta
+
+Cliente envia uma requisição para o Servidor (URL)
+Servidor envia uma resposta com o Conteudo (HTML, Mídias, Json ...)
+
+Obs.: Para o carregamento de uma página, são feitas diversar requisições. É importante mante o menor numero possivel de arquivos carregados para o carregamento ser mais rápido.
+
+Requisição tipo GET
+
+Os parametros vão diretamente na URL. Exemplo:
+www.test.com.br/teste?param1=10&param2=20
+
+Requisição tipo POST
+
+Os parametros vão dentro do corpo da requisição.
+Obs.: Está for é segura somente se utilizar o HTTPS
+
+Grupos de Status HTTP
+
+1XX - Informação
+2XX - Sucesso
+3XX - Redirecionamento
+4XX - Erro no Cliente
+5XX - Erro no Servidor
