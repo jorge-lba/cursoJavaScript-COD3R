@@ -1,0 +1,9 @@
+Conteudo no Servidor
+    Estatico: Lê um arquivo para estatico para apresentar ao client
+    Dinamico: Faz algum tipo de procesamento para ser apresentado ao cliente (Exemplo hora atual)
+
+    obs.: Conteudos dinamicos são apenas os que tem algum tipo de processamento acontecendo no servidor.
+
+Conteudo no client
+    Estatico: Aquivos que não sofrem alterações e procesamentos no cliente.
+    Dinamico: Aquivos que são procesados no cliente via script
