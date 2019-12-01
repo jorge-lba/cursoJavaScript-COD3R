@@ -1,0 +1,30 @@
+Serviços que utilizam recursos web (Utiliza padrões textuais)
+
+Web Service
+
+    Simple Object Access Protocol (SOAP) - Baseado em XML
+        WSDL
+        XML
+        RPC
+        Burogrático
+
+    Representational State Transfer (REST)
+        JSON
+        HTTP
+        Simples
+
+Convenção RESTful
+
+/clientes   - POST - Inclui novo cliente
+/clientes   - GET  - Obtém os clientes
+/clientes/36- GET  - Obtém o cliente 36
+/clientes/12- PUT  - Atualiza o cliente 12
+/clientes/41- DELETE - Exclui o cliente 41
+
+Escolhas Arquiteturais
+
+    SOA
+        Baseada em serviços instalados em barramentos (ESD)
+
+    Micro Service
+        São pequenos módulos de ciclo completo.
