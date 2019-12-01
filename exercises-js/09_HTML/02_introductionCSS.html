@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introdução CSS</title>
+    
+    <!-- Inicio do CSS -->
+    <link rel="stylesheet" href="02_CSS.css"> <!-- Pegar CSS em arquivo externo -->
+    <style>      
+        h1 {
+            font-size: 20px;
+        }
+
+        .fundoVermelho{
+            background-color: #C00;
+        }
+
+        .negrito{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <span id="txtPrincipal">Texto 1</span></br></br>
+    <span class="fundoVermelho negrito">Texto 2</span></br></br>
+    <span class="fundoVermelho" wm-atrib>Texto 3</span></br>
+</body>
+</html>
+
+<!-- Pegar elemento por atributos personalizados -->
+<!-- document.querySelector('[parametro]')-->
+
+<!-- document.querySelector('[wm-atrib]')-->
