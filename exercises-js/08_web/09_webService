@@ -24,7 +24,7 @@ Convenção RESTful
 Escolhas Arquiteturais
 
     SOA
-        Baseada em serviços instalados em barramentos (ESD)
+        Baseada em serviços instalados em barramentos (ESB)
 
     Micro Service
         São pequenos módulos de ciclo completo.
