@@ -1,0 +1,71 @@
+<!-- Listas Aninhadas -->
+
+<h1>Projeto</h1>
+<ul class = "tree">
+    <li>
+        <a  onclick="past('backend')">backend</a>
+        <ul id = "backend">
+            <li>
+                <a  onclick="past('app')">app</a>
+                <ul id = "app">
+                    <li>produtos.js</li>
+                    <li>usuario.js</li>
+                    <li>venda.js</li>
+                </ul>
+            </li>
+        </ul>
+        <li>
+            <a  onclick="past('config')">config</a>
+            <ul id = "config">
+                <li>banco.js</li>
+                <li>rotas.js</li>
+                <li>servidor.js</li>
+            </ul>
+        </li>
+    </li>
+    <li>
+        <a  onclick="past('frontend')">frontend</a>
+        <ul id = "frontend">
+            <li>
+               <a  onclick="past('public')">public</a>
+                <ul id = "public">
+                    <li>app.css</li>
+                    <li>app.js</li>
+                    <li>indec.html</li>
+                </ul>
+            </li
+        ></ul>
+    </li>
+</ul>
+
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+<script>
+    const backend = document.getElementById("backend");
+    const frontend = document.getElementById("frontend");
+    const app = document.getElementById("app");
+    const config = document.getElementById("config");
+    const public = document.getElementById("public");
+
+    console.log(config)
+
+    const past = (value)=>{
+        const element = eval(value);
+        console.log(element.style.display)
+        if(element.style.display != 'none'){
+            element.style.display = "none"
+        }else{
+            element.style.display = '';
+        }
+    }
+    
+
+    document.querySelectorAll(`[href]`).forEach(link =>{
+        link.onclick = function (e){
+            e.preventDefault();     
+        }
+    })
+
+    
+
+</script>
