@@ -1,0 +1,65 @@
+<h2>Videos</h2>
+<video id="meuVideo" width="600px" controls autoplay controlsList = "nodownload">
+    <source src = "http://files.cod3r.com.br/curso-web/video.mp4" type ="video/mp4">
+    Seu browser não suporta a tag video.  
+</video>     
+
+<div wm-progresso = "meuVideo" class="progresso">
+    <div class="barra"></div>
+</div>
+
+<div>
+    <button wm-play = "meuVideo" onclick="play()" >Play</button>
+    <button wm-pause = "meuVideo" onclick="pause()" >Pause</button>
+    <button wm-pause = "meuVideo" id="control" onclick="control()" >Play</button>
+
+
+</div>
+
+<style>
+    .progresso{
+        width: 400px;
+        height: 20px;
+        border: solid 1px #444;
+        margin: 20px;
+    }
+
+    .progresso > div {
+        background-color: red;
+        color: #fff;
+        height: 100%;
+        text-align: right;
+        font-size: 20px;
+        width: 0;
+    }
+</style>
+
+<script>
+
+    const video = document.querySelector("#meuVideo")
+    const progressDiv = document.querySelector('.barra')
+    const idControl = document.querySelector('#control')
+    
+    const play = () => video.play()
+    const pause = () => video.pause()
+    const control = () =>{
+        if(idControl.textContent == 'Play'){
+            play()
+            idControl.innerHTML = 'Pause'
+        }else{
+            pause()
+            idControl.innerHTML = 'Play' 
+        }
+    }
+    const progress = () =>{
+        const progress = Math.floor( ( 400 / video.duration ) * video.currentTime )
+        
+        progressDiv.style.width = progress
+
+    }
+    
+    video.ontimeupdate = () => progress()
+
+
+
+</script>
