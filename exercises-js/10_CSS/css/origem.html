@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Origem CSS: Externo, Interno e Inline</title>
+    <!-- Estilos em Página -->
     <style>
-        /* ... */
+       body {
+           background-color: aquamarine;
+       } 
     </style>
+
+    <!-- Estilo em arquivo externo (Recomendado) -->
+    <link rel="stylesheet" href="./css/origem.css">
+
 </head>
 
-<body>
+<!-- Estilo em line (não recomendado) -->
+<body style="background-color: bisque;">
     <h1>E agora?</h1>
 </body>
 
