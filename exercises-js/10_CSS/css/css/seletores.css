@@ -1,0 +1,19 @@
+/* *  */
+/* .tag  */
+/* #aprovados */
+/* #aninhado > div */
+/* #aninhado  section */
+/* p + ul */
+/* p ~ ol */
+/* [ feira ] */
+/* [ feira=casa ] */
+/* [ feira~=escritorio ] */
+/* [ feira*=sa ]  */
+/* span:nth-child(1)  */
+/* section > :nth-child(odd) */
+/* section >:nth-child(odd) label */
+
+section > span:nth-of-type(2) {
+    color: #ffff00;
+    background-color: #ff7777;
+}
