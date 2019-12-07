@@ -1,0 +1,32 @@
+.seletor {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    /* Multiplos valores */
+    border: solid 5px navy; /* shorthand property */
+    font-family: Helvetica, sans-serif;
+    /* Funções */
+    width: calc(100% - 30px);
+    background-color: rgb(34, 153, 189);
+}
+
+/* Usando uma pseudo-classe */
+.seletor:hover {
+    background-color: orangered;
+}
+
+/* Usando um pseudo-elemento */
+.seletor::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Padrão de nomenclatura ? */
+/* dach-case ou camelCase ? */
+
+/* O ideal é manter um padrão
+em todo o seu código          */
+
+/* O padrão mais utilizado no
+é o dash-case, que é o memso
+nativo do CSS. Para o curso sera
+usado dash-case.              */
