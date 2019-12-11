@@ -1,0 +1,12 @@
+body {
+    font-family: monospace;
+    font-size: 40px;
+    border: solid 3px red;
+    padding: 50px;
+}
+
+div {
+    /* inherit é o comando para herdar atributos */
+    border: inherit;  
+    padding: inherit;
+}
