@@ -6,7 +6,7 @@
     <title>Desafio Menu</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/desafioMenu.css">
+    <link rel="stylesheet" href="./css/desafioMenuProf.css">
     <style>
         /* ... */
     </style>
@@ -45,7 +45,15 @@
     </header>
 
     <script>
-        // ...
+        window.onhashchange = (e) => {
+           const oldURL = e.oldURL.split('#')[1] 
+           const newURL = e.newURL.split('#')[1]
+           const oldMenu = document.querySelector(`.menu a[href='#${oldURL}']`)
+           const newMenu = document.querySelector(`.menu a[href='#${newURL}']`)
+
+           oldMenu && oldMenu.classList.remove('selected')
+           newMenu && newMenu.classList.add('selected')
+        }
     </script>
 </body>
 
